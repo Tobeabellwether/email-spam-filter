@@ -27,9 +27,11 @@ pTest = readData("./spam-datasets/spam_testing.txt",1)
 nTest = readData("./spam-datasets/nospam_testing.txt",0)
 trainSet = pTrain.union(nTrain).cache()
 testSet = pTest.union(nTest).cache()
+```
 
 Spam Messages
 
+```python
 pTrain.show(20,100)
 ```
 
@@ -59,7 +61,6 @@ pTrain.show(20,100)
     +----------------------------------------------------------------------------------------------------+-----+
     only showing top 20 rows
     
-
 Not Spam Messages
 
 ```python
