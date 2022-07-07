@@ -27,18 +27,7 @@ pTest = readData("./spam-datasets/spam_testing.txt",1)
 nTest = readData("./spam-datasets/nospam_testing.txt",0)
 trainSet = pTrain.union(nTrain).cache()
 testSet = pTest.union(nTest).cache()
-```
 
-    22/07/07 23:41:52 WARN Utils: Your hostname, DESKTOP-LR48F7J resolves to a loopback address: 127.0.1.1; using 172.23.223.31 instead (on interface eth0)
-    22/07/07 23:41:52 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-    22/07/07 23:41:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-    Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
-    Setting default log level to "WARN".
-    To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-
-
-
-```python
 pTrain.show(20,100)
 ```
 
