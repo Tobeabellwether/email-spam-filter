@@ -1,4 +1,4 @@
-# Machine Learning Pipeline for Spam Classifier build by Apache Spark's ML Libary
+# Machine Learning Pipeline for Spam Classifier built by Apache Spark's ML Libary
 
 ```python
 from pyspark import SparkConf
