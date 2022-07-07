@@ -1,4 +1,4 @@
-# Spam Classifier built with Apache Spark's ML Libary
+# Building a Spam Classifier Machine Learning Pipeline Using Apache Spark's ML Libary
 
 ```python
 from pyspark import SparkConf
@@ -27,6 +27,8 @@ pTest = readData("./spam-datasets/spam_testing.txt",1)
 nTest = readData("./spam-datasets/nospam_testing.txt",0)
 trainSet = pTrain.union(nTrain).cache()
 testSet = pTest.union(nTest).cache()
+
+Spam Messages
 
 pTrain.show(20,100)
 ```
@@ -58,7 +60,7 @@ pTrain.show(20,100)
     only showing top 20 rows
     
 
-
+Not Spam Messages
 
 ```python
 nTrain.show(20,100)
