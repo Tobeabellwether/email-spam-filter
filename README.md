@@ -1,1 +1,1 @@
-# Spam classifier built with Apache Spark' ML Libary
+# Spam classifier built with Apache Spark's ML Libary
