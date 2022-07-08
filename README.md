@@ -187,7 +187,6 @@ plot_bar([lr_rec, nb_rec, svm_rec], "Recall")
 plot_bar([lr_pre, nb_pre, svm_pre], "Precision")
 ```
 
-
     
 ![png](Classification_files/Classification_16_0.png)
     
@@ -202,10 +201,3 @@ plot_bar([lr_pre, nb_pre, svm_pre], "Precision")
 
     
 ![png](Classification_files/Classification_16_2.png)
-    
-
-
-
-```python
-
-```
