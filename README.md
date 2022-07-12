@@ -127,9 +127,6 @@ lrModel = pipelineFit(lr)
 nbModel = pipelineFit(nb)
 svmModel = pipelineFit(svm)
 ```
-
-    22/07/07 23:42:00 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
-    22/07/07 23:42:00 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
                                                                                     
 
 After that I use the model to predict by using **predict()** the results based on the test data
